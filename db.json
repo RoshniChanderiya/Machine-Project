@@ -1,0 +1,124 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "firstName": "Roshni",
+      "lastName": "chanderiya",
+      "email": "roshnichanderiya@gmail.com",
+      "password": "12345678"
+    },
+    {
+      "id": 2,
+      "firstName": "aarti",
+      "lastName": "Yadav",
+      "email": "aartiyadav@gmail.com",
+      "password": "987456"
+    },
+    {
+      "email": "roshni@gmail.com",
+      "password": "rtryrytry",
+      "id": 3
+    },
+    {
+      "email": "roshni@gmail.com",
+      "password": "rtryrytry",
+      "id": 4
+    },
+    {
+      "email": "roshni@gmail.com",
+      "password": "5645456",
+      "id": 7
+    },
+    {
+      "firstName": "suraj",
+      "lastName": "chanderiya",
+      "email": "test@gmail.com",
+      "password": "521545dd",
+      "id": 8
+    },
+    {
+      "firstName": "arti",
+      "lastName": "chanderiya",
+      "email": "test@gmail.com",
+      "password": "585534kh",
+      "id": 9
+    },
+    {
+      "firstName": "hariom",
+      "lastName": "sharma",
+      "email": "sharma@gmail.com",
+      "password": "sahdgkjsa552",
+      "id": 10
+    },
+    {
+      "firstName": "ruchi",
+      "lastName": "gour",
+      "email": "gour@gmail.com",
+      "password": "fhgfjhg525",
+      "id": 11
+    },
+    {
+      "firstName": "paridhi",
+      "lastName": "chanderiya",
+      "email": "pari@gmail.com",
+      "password": "sdjh146879",
+      "id": 12
+    },
+    {
+      "firstName": "Darshna ",
+      "lastName": "yadav",
+      "email": "sharma@gmail.com",
+      "password": "gfjf48968454",
+      "id": 13
+    },
+    {
+      "firstName": "paridhi ",
+      "lastName": "yadav",
+      "email": "test1@gmail.com",
+      "password": "45685hsj78",
+      "id": 14
+    },
+    {
+      "firstName": "suraj",
+      "lastName": "yadav",
+      "email": "sharma@gmail.com",
+      "password": "guiygyu1465",
+      "id": 15
+    },
+    {
+      "firstName": "pari",
+      "lastName": "tiwari",
+      "email": "tiwari@gmail.com",
+      "password": "fgdghdkg456478",
+      "id": 16
+    },
+    {
+      "firstName": "dolly",
+      "lastName": "bisen",
+      "email": "bisen@gmail.com",
+      "password": "dolly123",
+      "id": 17
+    },
+    {
+      "firstName": "shalu",
+      "lastName": "tiwari",
+      "email": "tiwari@gmail.com",
+      "password": "456789100",
+      "id": 18
+    },
+    {
+      "firstName": "suraj",
+      "lastName": "sharma",
+      "email": "sharma@gmail.com",
+      "password": "sharma456",
+      "id": 51
+    },
+    {
+      "firstName": "Darshna ",
+      "lastName": "chanderiya",
+      "email": "roshanichanderiya@gmail.com",
+      "password": "darshna456",
+      "id": 52
+    }
+  ]
+}
