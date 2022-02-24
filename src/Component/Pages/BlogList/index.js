@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link, useParams } from 'react-router-dom';
 import styles from './styles.module.scss';
 import blogData from '../Blog/data.js';
@@ -17,6 +17,7 @@ const BlogList = () => {
           <button className={`name designbtn ${styles.buttons}`}>Back Home</button>
         </Link>
         <table id={styles["languages"]} className="shadow">
+        <tbody>
         <tr>
             <td>Id</td>
             <td>{finalData.id}</td>
@@ -31,7 +32,7 @@ const BlogList = () => {
           </tr>
           <tr>
             <td>Used</td>
-            <td>As a Front End Liberary</td>
+            <td>{finalData.used}</td>
           </tr>
           <tr>
             <td>Introduces Year</td>
@@ -41,6 +42,7 @@ const BlogList = () => {
             <td>Used Application</td>
             <td>{finalData.used_app}</td>
           </tr>
+          </tbody>
       </table>
       </div>
     </>

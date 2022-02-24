@@ -54,6 +54,10 @@ const LoginPage = () => {
     }
     if (!values.password) {
       errors.password = "Password is required";
+    }else if (values.password.length < 8) {
+      errors.password = "Password must be more than 8 characters";
+    } else if (values.password.length > 20) {
+      errors.password = "Password cannot exceed more than 20 characters";
     }
     return errors;
   };

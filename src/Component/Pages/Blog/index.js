@@ -3,10 +3,7 @@ import styles from "./styles.module.scss"
 import { Link, useNavigate } from 'react-router-dom';
 import Cards from './Cards';
 import blogData from './data';
-import {
-  Card, Button, CardTitle, CardText, Row, Col, CardBody,
-  CardImg, CardGroup, ButtonGroup
-} from 'reactstrap';
+import { Button, Row, Col, CardGroup } from 'reactstrap';
 import Cookies from 'js-cookie';
 const BlogCard = () => {
   const navigate = useNavigate();
@@ -32,8 +29,8 @@ const BlogCard = () => {
           {blogData.map((element, index) => {
             return (
               <>
-                <Col sm="4">
-                  <Cards key={index} courseName={element.courseName} description={element.description} imgs={element.imgs} />
+                <Col sm="4" key={index}>
+                  <Cards  courseName={element.courseName} description={element.description} imgs={element.imgs} />
                 </Col>
               </>
             )

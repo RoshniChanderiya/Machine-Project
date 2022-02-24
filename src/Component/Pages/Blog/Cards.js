@@ -1,7 +1,7 @@
 import React from 'react';
 import {
-  CardGroup, Card, CardImg, CardTitle, CardSubtitle, CardText
-  , CardBody, Button, Col
+  Card, CardImg, CardTitle, CardText
+  , CardBody, Button
 } from "reactstrap";
 import { Link } from 'react-router-dom';
 import BlogList from '../BlogList';
@@ -30,5 +30,4 @@ const Cards = ({ courseName, description, imgs, id }) => {
     </div>
   )
 }
-
 export default Cards;
